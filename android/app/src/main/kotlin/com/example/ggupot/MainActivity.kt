@@ -1,4 +1,4 @@
-package com.example.ggupot
+package com.jin.ggupot
 
 import io.flutter.embedding.android.FlutterActivity
 

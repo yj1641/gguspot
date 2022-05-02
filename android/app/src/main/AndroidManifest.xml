@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ggupot">
+    package="com.jin.ggupot">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
    <application
         android:label="ggupot"
         android:name="${applicationName}"
@@ -30,5 +33,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="ynfo87zqak" />
     </application>
 </manifest>
